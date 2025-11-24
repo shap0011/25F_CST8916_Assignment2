@@ -83,34 +83,51 @@ Compare the three CSPs across these categories:
 
 ## GraphQL Services
 
-- Native GraphQL support
-- Third-party integration options
+### Native GraphQL support
+
+**AWS**: AWS AppSync is fully managed GraphQL with real-time sync and integrations with DynamoDB, Lambda, etc [21].
+
+**Azure**: Azure API Management can import GraphQL endpoints or create synthetic GraphQL APIs with schema and resolvers [22].
+
+**GCP**: No fully managed GraphQL engine; GraphQL runs on Cloud Run/Functions. Apigee provides GraphQL governance (policies, schema enforcement) [23].
+
+### Third-party integration options
+
+**AWS**: Supports Apollo or other GraphQL servers on Lambda/EC2.
+
+**Azure**: Works with Apollo, Hasura, and other frameworks hosted on Azure services.
+
+**GCP**: Supports any GraphQL server (Apollo, Yoga, etc.) deployed on Google Cloud.
 
 ## WebSocket Services
 
-- Real-time communication services
-- Scalability features
+### Real-time communication services
+
+### Scalability features
 
 ## Data Streaming Services
 
-- Stream processing platforms
-- Data ingestion capabilities
+### Stream processing platforms
+
+### Data ingestion capabilities
 
 ## Stream Analytics
 
-- Real-time analytics platforms
+### Real-time analytics platforms
 
 ## Use Case Analysis
 
-- Present **two real-world scenarios** for real-time applications
-- Recommend the most suitable CSP for each with justification
-- Consider: cost, performance, ease of integration, ecosystem
+### Present **two real-world scenarios** for real-time applications
+
+### Recommend the most suitable CSP for each with justification
+
+### Consider: cost, performance, ease of integration, ecosystem
 
 ---
 
 # Conclusion
 
-- Summary of findings and overall recommendations
+## Summary of findings and overall recommendations
 
 ---
 
@@ -145,3 +162,6 @@ Compare the three CSPs across these categories:
 - [18] Microsoft Azure. "API Management pricing." https://azure.microsoft.com/en-us/pricing/details/api-management/
 - [19] Google Cloud. "API Gateway pricing." https://cloud.google.com/api-gateway/pricing
 - [20] Google Cloud. "Apigee API Management pricing." https://cloud.google.com/apigee/pricing?hl=en
+- [21] Amazon Web Services. "What is GraphQL?" https://aws.amazon.com/graphql/
+- [22] Microsoft Azure Learn. "Overview of GraphQL APIs in Azure API Management" https://learn.microsoft.com/en-us/azure/api-management/graphql-apis-overview
+- [23] Google Cloud Docs. "Using GraphQL" https://docs.cloud.google.com/apigee/docs/api-platform/develop/graphql
