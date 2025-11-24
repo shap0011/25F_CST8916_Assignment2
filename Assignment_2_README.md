@@ -70,6 +70,17 @@ Compare the three CSPs across these categories:
 
 ### Pricing models
 
+**AWS** uses a **usage-based pricing model**, where you pay primarily per API request and for outbound data transfer. This makes AWS cost-efficient for variable or low-traffic workloads [17].
+
+**Azure** uses a **tier-based pricing model**, where you choose a plan (Consumption, Basic, Standard, Premium) and pay a fixed monthly rate, with extra charges for additional requests. This offers predictable costs but may require higher tiers for enterprise features [18].
+
+**Google Cloud** offers two models:
+
+1. **API Gateway**: fully **usage-based**, similar to AWS (pay per API call + data transfer) [19].
+
+2. **Apigee**: an **enterprise tier model** based on editions (Standard, Enterprise, Enterprise Plus) with pricing tied to API call volume and included features.
+   This makes GCP flexible for both lightweight and large-scale enterprise API ecosystems [20].
+
 ## GraphQL Services
 
 - Native GraphQL support
@@ -130,3 +141,7 @@ Compare the three CSPs across these categories:
 - [14] Scadea. "Choose the right gateway API solution Apigee vs AWS vs Azure." https://scadea.com/choose-right-api-solution-apigee-vs-aws-vs-azure/
 - [15] Amazon Web Services. "What is Amazon API Gateway?" https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html
 - [16] Microsoft Azure Learn. "What is Azure API Management?" https://docs.azure.cn/en-us/api-management/api-management-key-concepts
+- [17] Amazon Web Services. "Amazon API Gateway pricing." https://aws.amazon.com/api-gateway/pricing
+- [18] Microsoft Azure. "API Management pricing." https://azure.microsoft.com/en-us/pricing/details/api-management/
+- [19] Google Cloud. "API Gateway pricing." https://cloud.google.com/api-gateway/pricing
+- [20] Google Cloud. "Apigee API Management pricing." https://cloud.google.com/apigee/pricing?hl=en
