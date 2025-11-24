@@ -6,15 +6,6 @@ Conduct a comparison of **AWS**, **Azure**, and **GCP** focusing on their cloud 
 
 ---
 
-## Report Structure & Requirements
-
-Your README.md file must include the following sections:
-
-##### 1. Executive Summary (10%)
-
-- Brief overview of the comparison (200-300 words)
-- Key findings and recommendations
-
 # Executive Summary
 
 ## Brief overview of the comparison
@@ -46,11 +37,6 @@ If your _workloads are analytics-heavy_, _global in scale_, _event-driven_, or _
 
 ---
 
-##### 2. Introduction (10%)
-
-- Purpose and scope of the comparison
-- Brief overview of the three cloud providers
-
 # Introduction
 
 ## Purpose and scope of the comparison
@@ -68,55 +54,55 @@ Google’s global networking infrastructure, renowned for its low latency and hi
 
 ---
 
-### 3. Service Comparison (60%)
+# Service Comparison
 
 Compare the three CSPs across these categories:
 
-**a) RESTful API Services (15%)**
+## RESTful API Services
 
-- API Gateway services and management tools
-- Pricing models
+### API Gateway services and management tools
 
-**b) GraphQL Services (15%)**
+| Provider | Service category | Service Type                           | Service                   | Description                                                                                                                                     | Strengths | Considerations / Weaknesses |
+| :------- | :--------------- | :------------------------------------- | :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- | :-------- | :-------------------------- |
+| AWS      | API management   | Portals                                | Amazon API Gateway        |                                                                                                                                                 |           |                             |
+| AWS      | API management   | Self-hosted lightweight API management | Amazon API Gateway        |                                                                                                                                                 |           |                             |
+| Azure    | API management   | Portals                                | Azure API Management      |                                                                                                                                                 |           |                             |
+| Azure    | API management   | Self-hosted lightweight API management | Azure API Management      |                                                                                                                                                 |           |                             |
+| GCP      | API management   | Portals                                | Apigee integrated portals | Support for several developer portal solutions, ranging from simple turn-key solutions to solutions that are fully customizable and extensible. |           |                             |
+| GCP      | API management   | Self-hosted lightweight API management |                           |                                                                                                                                                 |           |
+
+### Pricing models
+
+## GraphQL Services
 
 - Native GraphQL support
 - Third-party integration options
 
-**c) WebSocket Services (10%)**
+## WebSocket Services
 
 - Real-time communication services
 - Scalability features
 
-**d) Data Streaming Services (10%)**
+## Data Streaming Services
 
 - Stream processing platforms
 - Data ingestion capabilities
 
-**e) Stream Analytics (10%)**
+## Stream Analytics
 
 - Real-time analytics platforms
 
-### 4. Use Case Analysis (15%)
+## Use Case Analysis
 
 - Present **two real-world scenarios** for real-time applications
 - Recommend the most suitable CSP for each with justification
 - Consider: cost, performance, ease of integration, ecosystem
 
-### 5. Conclusion (5%)
-
-- Summary of findings and overall recommendations
-
-### 6. References
-
-- Properly cite all sources (official documentation, articles, etc.)
-
 ---
 
-## Submission Instructions
+# Conclusion
 
-1. Create a **public GitHub repository**
-2. Complete your report in `README.md`
-3. Submit the **GitHub repository URL** via Brightspace.
+- Summary of findings and overall recommendations
 
 ---
 
@@ -140,4 +126,7 @@ Compare the three CSPs across these categories:
 - [7] Amazon Web Services. "AWS Lambda." https://aws.amazon.com/lambda/
 - [8] GeeksForGeeks. "What is Microsoft Azure Functions?" https://www.geeksforgeeks.org/devops/what-is-microsoft-azure-functions/
 - [9] Google Cloud. "Cloud Run functions." https://cloud.google.com/functions?hl=en
-- [10] Signiance. "Comparing Cloud providers" https://signiance.com/comparing-cloud-providers/
+- [10] Signiance. "Comparing Cloud providers." https://signiance.com/comparing-cloud-providers/
+- [11] Google Cloud Docs. "Compare AWS and Azure services to Google Cloud." https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
+- [12] TechTarget. "Compare cloud API management tools from AWS, Azure and Google." https://www.techtarget.com/searchcloudcomputing/tip/Compare-cloud-API-management-tools-from-AWS-Azure-and-Google
+- [13] Over New Limits United (ONLU). "The ultimate comparison of API management solutions." https://onlu.ch/en/the-ultimate-comparison-of-api-management-solutions/
