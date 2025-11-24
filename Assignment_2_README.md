@@ -103,7 +103,19 @@ Compare the three CSPs across these categories:
 
 ### Real-time communication services
 
+**AWS**: Amazon API Gateway WebSocket APIs supports WebSocket APIs (bidirectional) so both client and server can send messages without polling [24].
+
+**Azure**: Azure Web PubSub is a fully managed WebSocket + pub/sub service. Native WebSocket support for real-time messaging in web & mobile apps [25].
+
+**GCP**: WebSocket support via Cloud Run, App Engine Flexible Environment, etc. are WebSockets supported on Cloud Run & App Engine for real-time two-way comms [26].
+
 ### Scalability features
+
+**AWS**: Amazon API Gateway WebSocket APIs integrates with AWS services, can be designed for multi-region, serverless scalability [27].
+
+**Azure**: Azure Web PubSub handles large numbers of client connections, high availability, scaling built in [25].
+
+**GCP**: WebSocket support via Cloud Run, App Engine Flexible Environment, etc. Scaling achieved via container/instance autoscaling, but more manual setup and state-sync considerations [28].
 
 ## Data Streaming Services
 
@@ -165,3 +177,8 @@ Compare the three CSPs across these categories:
 - [21] Amazon Web Services. "What is GraphQL?" https://aws.amazon.com/graphql/
 - [22] Microsoft Azure Learn. "Overview of GraphQL APIs in Azure API Management" https://learn.microsoft.com/en-us/azure/api-management/graphql-apis-overview
 - [23] Google Cloud Docs. "Using GraphQL" https://docs.cloud.google.com/apigee/docs/api-platform/develop/graphql
+- [24] Amazon Web Services Docs. "API Gateway WebSocket APIs" https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html
+- [25] Microsoft Azure. "Azure Web PubSub" https://azure.microsoft.com/en-us/products/web-pubsub
+- [26] Google Cloud Docs. "Using WebSockets" https://docs.cloud.google.com/run/docs/triggering/websockets
+- [27] Amazon Web Services. "Building serverless multi-Region WebSocket APIs" https://aws.amazon.com/blogs/compute/building-serverless-multi-region-websocket-apis/
+- [28] Google Cloud Docs. "Building a WebSocket Chat service for Cloud Run tutorial" https://docs.cloud.google.com/run/docs/tutorials/websockets
