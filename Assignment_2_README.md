@@ -29,11 +29,11 @@ infrastructure [9].
 
 ## Recommendations:
 
-If you need _versatility_, a _mature ecosystem_, and _high-performance streaming capabilities_, you should choose **AWS**.
+Users requiring versatility, a mature ecosystem, and high-performance streaming capabilities may find **AWS** the most suitable choice.
 
-If you want _strong enterprise integration_, _compatibility with Microsoft environments_, or _IoT-focused solutions_, **Azure** is the best option.
+If they want strong enterprise integration, compatibility with Microsoft environments, or IoT-focused solutions, **Azure** is the best solution.
 
-If your _workloads are analytics-heavy_, _global in scale_, _event-driven_, or _require cost optimization_, **GCP** is the right choice.
+If their workloads are analytics-heavy, global in scale, event-driven, or require cost optimization, **GCP** is preferred option.
 
 ---
 
