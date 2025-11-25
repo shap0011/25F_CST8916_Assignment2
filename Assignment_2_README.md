@@ -87,7 +87,7 @@ If consumers are already working with a cloud provider and seeking simplicity an
 
 #### Summary of key differences
 
-**AWS** follows a usage-based model where costs depend on API calls and outbound data, making it well-suited for variable or low-traffic workloads. **Azure** uses tiered monthly plans with additional charges for excess requests, providing predictable costs but often requiring higher tiers for enterprise features. **Google Cloud** offers two approaches: a usage-based model for **API Gateway**, similar to AWS, and an enterprise edition-based model for **Apigee**, which ties pricing to features and API call volume. Overall, advanced capabilities—such as caching, private networking, multi-region deployments, and developer portals—can significantly influence total cost across all providers.
+**AWS** follows a usage-based model where costs depend on API calls and outbound data, making it well-suited for variable or low-traffic workloads. **Azure** uses tiered monthly plans with additional charges for excess requests, providing predictable costs but often requiring higher tiers for enterprise features. **Google Cloud** offers two approaches: a usage-based model for **API Gateway**, similar to AWS, and an enterprise edition-based model for **Apigee**, which ties pricing to features and API call volume. Overall, advanced capabilities such as caching, private networking, multi-region deployments, and developer portals, can significantly influence total cost across all providers.
 
 ## GraphQL Services
 
