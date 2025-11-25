@@ -68,6 +68,10 @@ Compare the three CSPs across these categories:
 | Azure    | API management   | Portals      | Azure API Management      | A full-featured API management platform that provides tools for creating, securing, analyzing, and scaling APIs. It includes a gateway, developer portal, policy engine, and analytics features designed for hybrid, on-premises, and cloud-based API ecosystems. [16]      | Strong enterprise integration (Azure AD, Logic Apps), full lifecycle API management [13]                    | If your ecosystem isn’t Azure-centric, it may add overhead                                                                 |
 | GCP      | API management   | Portals      | Apigee integrated portals | Support for several developer portal solutions, ranging from simple turn-key solutions to solutions that are fully customizable and extensible [11].                                                                                                                        | GCP’s gateway is simple and managed; Apigee offers advanced features for enterprise API productization [14] | Apigee can be relatively costly / complex; GCP gateway may lack some enterprise full-lifecycle features compared to others |
 
+#### Key findings & recommendations
+
+If consumers are already working with a cloud provider and seeking simplicity and the best integration, they may use the same provider's gateway. For example, **Amazon API Gateway** is ideal for microservices/serverless in AWS. For Microsoft-centric organizations, **Azure API Management** is the best choice, as well as for enterprise APIs such as developer portals, versioning, and monetization. **GCP's Apigee** is compelling for those looking for an API for analytics or a developer ecosystem, as well as for global scale and hybrid or multi-cloud flexibility.
+
 ### Pricing models
 
 **AWS** uses a **usage-based pricing model**, where you pay primarily per API request and for outbound data transfer. This makes AWS cost-efficient for variable or low-traffic workloads [17].
@@ -80,6 +84,10 @@ Compare the three CSPs across these categories:
 
 2. **Apigee**: an **enterprise tier model** based on editions (Standard, Enterprise, Enterprise Plus) with pricing tied to API call volume and included features.
    This makes GCP flexible for both lightweight and large-scale enterprise API ecosystems [20].
+
+#### Summary of key differences
+
+**AWS** follows a usage-based model where costs depend on API calls and outbound data, making it well-suited for variable or low-traffic workloads. **Azure** uses tiered monthly plans with additional charges for excess requests, providing predictable costs but often requiring higher tiers for enterprise features. **Google Cloud** offers two approaches: a usage-based model for **API Gateway**, similar to AWS, and an enterprise edition-based model for **Apigee**, which ties pricing to features and API call volume. Overall, advanced capabilities—such as caching, private networking, multi-region deployments, and developer portals—can significantly influence total cost across all providers.
 
 ## GraphQL Services
 
