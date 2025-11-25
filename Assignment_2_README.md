@@ -145,13 +145,21 @@ Compare the three CSPs across these categories:
 
 **GCP**: Google Cloud Dataflow supports streaming (and batch) analytics, enabling ingest, process and analyze of event streams in real time with autoscaling infrastructure [31].
 
-## Use Case Analysis
+---
 
-### Present **two real-world scenarios** for real-time applications
+# Use Case Analysis
 
-### Recommend the most suitable CSP for each with justification
+- Present **two real-world scenarios** for real-time applications
+- Recommend the most suitable CSP for each with justification
+- Consider: cost, performance, ease of integration, ecosystem
 
-### Consider: cost, performance, ease of integration, ecosystem
+1. Real-Time IoT Monitoring
+
+A manufacturing company needs to process continuous sensor data from thousands of devices to monitor equipment health and detect issues in real time. **Microsoft Azure** is the best fit because Azure IoT Hub and Stream Analytics offer reliable, scalable ingestion and processing with simple tier-based pricing. Azure’s strong integration with enterprise tools and services also makes it easier to build and manage large IoT solutions efficiently.
+
+2. Real-Time Global User Engagement
+
+A global consumer app requires instant updates such as live notifications, comments, and activity feeds for users across multiple regions. Amazon Web Services (AWS) is recommended due to its powerful real-time stack, including API Gateway WebSocket APIs, DynamoDB Streams, and AWS Lambda. Its pay-as-you-go pricing and global infrastructure provide low latency, strong scalability, and an easy path to building responsive, real-time features.
 
 ---
 
@@ -159,14 +167,13 @@ Compare the three CSPs across these categories:
 
 ## Summary of findings and overall recommendations
 
+AWS, Azure, and Google Cloud provide strong options for remote data storage, real-time streaming, and real-time applications. **AWS** is best for scalable, event-driven workloads and global real-time features. **Azure** offers the strongest integration for enterprise and IoT solutions with predictable pricing and mature tooling. **GCP** is ideal for analytics-driven and flexible deployments, especially when custom streaming or data processing pipelines are required. The best choice depends on the consumer project’s priorities in cost, performance, and ecosystem integration.
+
 ---
 
-## Use of Generative AI (Permitted)
+# Use of Generative AI (Permitted)
 
-- **Must disclose** AI usage in a section titled "AI Usage Disclosure"
-- Specify how AI was used (e.g., brainstorming, editing)
-- Content must reflect **your own understanding**
-- Undisclosed AI use = academic misconduct
+I used generative AI (ChatGPT) to assist with this assignment. AI was used for editing, clarifying explanations, and brainstorming. All analysis, interpretations, comparisons, and conclusions reflect my own understanding of the course material.
 
 ---
 
