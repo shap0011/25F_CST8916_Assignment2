@@ -93,19 +93,23 @@ If consumers are already working with a cloud provider and seeking simplicity an
 
 ### Native GraphQL support
 
-**AWS**: AWS AppSync is fully managed GraphQL with real-time sync and integrations with DynamoDB, Lambda, etc [21].
+**AWS**: Offers a fully managed GraphQL service via AWS AppSync. It supports queries, mutations, subscriptions, offline & real-time data sync and integrates directly with other AWS data sources (DynamoDB, RDS, HTTP APIs, Lambda) [21].
 
-**Azure**: Azure API Management can import GraphQL endpoints or create synthetic GraphQL APIs with schema and resolvers [22].
+**Azure**: Provides GraphQL support via Azure API Management: you can import an existing GraphQL endpoint (pass-through) or upload a schema and build a synthetic GraphQL API with custom resolvers. Subscriptions support is available (preview). [22].
 
-**GCP**: No fully managed GraphQL engine; GraphQL runs on Cloud Run/Functions. Apigee provides GraphQL governance (policies, schema enforcement) [23].
+**GCP**: GCP does not/less provide a dedicated native managed GraphQL service like AppSync. Instead, you deploy GraphQL back-ends (e.g., using Apollo Server, Yoga) on compute services (Cloud Functions, Cloud Run) and/or manage them through API-management layers like Apigee which supports GraphQL policies (traffic control, schema enforcement) but is not purely “native GraphQL engine”.[23].
 
 ### Third-party integration options
 
-**AWS**: Supports Apollo or other GraphQL servers on Lambda/EC2.
+**AWS**: Because AppSync itself is the native offering, you can also use generic GraphQL frameworks (for example Apollo) deployed on AWS compute services (e.g., Lambda or EC2) to integrate third-party GraphQL tools.
 
-**Azure**: Works with Apollo, Hasura, and other frameworks hosted on Azure services.
+**Azure**: Because Azure API Management works as a gateway/proxy, you can integrate GraphQL back-ends built with third-party frameworks (e.g., Apollo, Hasura) hosted on Azure compute or on-premises, and manage them through the API-Management layer.
 
-**GCP**: Supports any GraphQL server (Apollo, Yoga, etc.) deployed on Google Cloud.
+**GCP**: Strong third-party integration options: you can deploy almost any GraphQL server (Apollo, Yoga, etc) on Google Cloud compute services and integrate with data sources and API management. The ecosystem is flexible for GraphQL frameworks and custom back-ends.
+
+#### Summary of key differences
+
+Users seeking a fully managed GraphQL service with minimal setup will find **AWS AppSync** the strongest option. **Azure API Management** provides robust GraphQL governance and management features such as schema handling, resolvers, and policy controls, making it suitable for organizations that need structured API oversight, though the GraphQL backend is still managed by the consumer. **Google Cloud** offers the most flexibility for custom GraphQL implementations through services like Cloud Run and Apigee, which support third-party GraphQL frameworks, but it does not provide a dedicated, fully managed GraphQL engine like AppSync, so organizations requiring such functionality will need additional setup and integration effort.
 
 ## WebSocket Services
 
