@@ -151,6 +151,10 @@ Organizations that need a ready-made, fully managed WebSocket service with strai
 
 **GCP**: Google Cloud Pub/Sub supports streaming ingestion with in-order delivery, scalable pub/sub logic, and native integration into analytics/storage [33].
 
+#### Summary of key differences
+
+Across the three cloud providers, **AWS** focuses on high-throughput, low-latency streaming through Kinesis, offering strong real-time ingestion and processing for event logs, IoT data, and clickstreams. **Azure** provides enterprise-friendly options with Event Hubs for massive event ingestion and Stream Analytics for real-time SQL-based analysis, making it well-suited for large-scale operational streaming scenarios. **Google Cloud** emphasizes flexibility and analytics integration, combining Pub/Sub for global, reliable event ingestion with Dataflow for autoscaling stream processing using Apache Beam. Overall, AWS excels in tightly integrated, high-throughput pipelines; Azure excels in enterprise-scale ingestion and managed analytics; and GCP excels in developer flexibility and advanced data processing workflows.
+
 ## Stream Analytics
 
 ### Real-time analytics platforms
@@ -160,6 +164,10 @@ Organizations that need a ready-made, fully managed WebSocket service with strai
 **Azure**: Azure Stream Analytics is a serverless real-time analytics service designed to handle mission-critical streaming workloads using SQL-like queries and built-in scaling [35].
 
 **GCP**: Google Cloud Dataflow supports streaming (and batch) analytics, enabling ingest, process and analyze of event streams in real time with autoscaling infrastructure [31].
+
+#### Summary of key differences
+
+Across all three cloud providers, real-time analytics is supported through managed streaming services designed for fast, continuous data processing. **AWS** focuses on flexible, high-throughput stream handling through Kinesis Data Streams, enabling real-time collection and analysis. **Azure** delivers a fully serverless approach with Stream Analytics, offering SQL-like query processing and automatic scaling for mission-critical workloads. **Google Cloud** provides Dataflow, a unified streaming and batch analytics platform built on Apache Beam, offering powerful autoscaling and seamless integration with GCP’s data ecosystem. Overall, AWS emphasizes stream throughput, Azure prioritizes ease of use and enterprise reliability, and GCP excels in advanced, scalable data processing workflows.
 
 ---
 
