@@ -139,6 +139,12 @@ Compare the three CSPs across these categories:
 
 ### Real-time analytics platforms
 
+**AWS**: Offers real-time analytics via services like Amazon Kinesis Data Streams which enable collecting, processing and analyzing streaming data in real time [34].
+
+**Azure**: Azure Stream Analytics is a serverless real-time analytics service designed to handle mission-critical streaming workloads using SQL-like queries and built-in scaling [35].
+
+**GCP**: Google Cloud Dataflow supports streaming (and batch) analytics, enabling ingest, process and analyze of event streams in real time with autoscaling infrastructure [31].
+
 ## Use Case Analysis
 
 ### Present **two real-world scenarios** for real-time applications
@@ -199,3 +205,5 @@ Compare the three CSPs across these categories:
 - [31] Google Cloud. "Real-time data intelligence." https://cloud.google.com/products/dataflow
 - [32] Microsoft Azure. "Event Hubs." https://azure.microsoft.com/en-us/products/event-hubs
 - [33] Google Cloud. "Pub/Sub." https://cloud.google.com/pubsub
+- [34] Amazon Web Services. "Real-time Analytics on AWS." https://aws.amazon.com/big-data/real-time-analytics-featured-partners
+- [35] Microsoft Azure. "Azure Stream Analytics" https://azure.microsoft.com/en-us/products/stream-analytics
