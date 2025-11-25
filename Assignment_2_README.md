@@ -115,11 +115,11 @@ Users seeking a fully managed GraphQL service with minimal setup will find **AWS
 
 ### Real-time communication services
 
-**AWS**: Amazon API Gateway WebSocket APIs supports WebSocket APIs (bidirectional) so both client and server can send messages without polling [24].
+**AWS**: _Amazon API Gateway_ _WebSocket APIs_ supports WebSocket APIs (bidirectional) so both client and server can send messages without polling [24].
 
-**Azure**: Azure Web PubSub is a fully managed WebSocket + pub/sub service. Native WebSocket support for real-time messaging in web & mobile apps [25].
+**Azure**: _Azure Web PubSub_ is a fully managed WebSocket + pub/sub service. Native WebSocket support for real-time messaging in web & mobile apps [25].
 
-**GCP**: WebSocket support via Cloud Run, App Engine Flexible Environment, etc. are WebSockets supported on Cloud Run & App Engine for real-time two-way comms [26].
+**GCP**: WebSocket support via _Cloud Run_, _App Engine Flexible Environment_, etc. are WebSockets supported on Cloud Run & App Engine for real-time two-way comms [26].
 
 ### Scalability features
 
@@ -128,6 +128,10 @@ Users seeking a fully managed GraphQL service with minimal setup will find **AWS
 **Azure**: Azure Web PubSub handles large numbers of client connections, high availability, scaling built in [25].
 
 **GCP**: WebSocket support via Cloud Run, App Engine Flexible Environment, etc. Scaling achieved via container/instance autoscaling, but more manual setup and state-sync considerations [28].
+
+#### Summary of key differences
+
+Organizations that need a ready-made, fully managed WebSocket service with straightforward scalability may benefit most from **Azure Web PubSub**, while workloads already built around the AWS ecosystem are well supported by **Amazon API Gateway’s WebSocket APIs**, which offer strong real-time integration with other AWS services. For teams that prefer more flexibility and want to deploy custom WebSocket solutions using containers or functions, **Google Cloud** provides that freedom through Cloud Run and other compute options, though consumers must take on more responsibility for scaling and managing state compared to the managed options available on AWS and Azure.
 
 ## Data Streaming Services
 
