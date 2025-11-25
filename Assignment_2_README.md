@@ -173,7 +173,7 @@ AWS, Azure, and Google Cloud provide strong options for remote data storage, rea
 
 # Use of Generative AI (Permitted)
 
-I used generative AI (ChatGPT) to assist with this assignment. AI was used for editing, clarifying explanations, and brainstorming. All analysis, interpretations, comparisons, and conclusions reflect my own understanding of the course material.
+I used generative AI (ChatGPT) to assist with this assignment. AI was used for editing, clarifying explanations, brainstorming, and rephrasing content to improve the overall readability of the report. All analysis, interpretations, comparisons, and conclusions reflect my own understanding of the course material.
 
 ---
 
