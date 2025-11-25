@@ -121,7 +121,19 @@ Compare the three CSPs across these categories:
 
 ### Stream processing platforms
 
+**AWS**: Amazon Kinesis Data Streams lets you collect and process large volumes of records in real time with elasticity and low latency [29].
+
+**Azure**: Azure Stream Analytics is a fully managed service that analyzes streaming data via SQL-like queries, and can scale automatically for large workloads [30].
+
+**GCP**: Google Cloud Dataflow supports streaming (and batch) pipelines using Apache Beam, with autoscaling and integration into analytics/ML workflows [31].
+
 ### Data ingestion capabilities
+
+**AWS**: Kinesis (and related services) supports high-throughput ingestion of event logs, clickstreams, IoT data, etc. [29].
+
+**Azure**: Azure Event Hubs is designed for real-time ingestion of millions of events per second from any source, making it ideal for large-scale streaming [32].
+
+**GCP**: Google Cloud Pub/Sub supports streaming ingestion with in-order delivery, scalable pub/sub logic, and native integration into analytics/storage [33].
 
 ## Stream Analytics
 
@@ -175,10 +187,15 @@ Compare the three CSPs across these categories:
 - [19] Google Cloud. "API Gateway pricing." https://cloud.google.com/api-gateway/pricing
 - [20] Google Cloud. "Apigee API Management pricing." https://cloud.google.com/apigee/pricing?hl=en
 - [21] Amazon Web Services. "What is GraphQL?" https://aws.amazon.com/graphql/
-- [22] Microsoft Azure Learn. "Overview of GraphQL APIs in Azure API Management" https://learn.microsoft.com/en-us/azure/api-management/graphql-apis-overview
-- [23] Google Cloud Docs. "Using GraphQL" https://docs.cloud.google.com/apigee/docs/api-platform/develop/graphql
-- [24] Amazon Web Services Docs. "API Gateway WebSocket APIs" https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html
-- [25] Microsoft Azure. "Azure Web PubSub" https://azure.microsoft.com/en-us/products/web-pubsub
-- [26] Google Cloud Docs. "Using WebSockets" https://docs.cloud.google.com/run/docs/triggering/websockets
-- [27] Amazon Web Services. "Building serverless multi-Region WebSocket APIs" https://aws.amazon.com/blogs/compute/building-serverless-multi-region-websocket-apis/
-- [28] Google Cloud Docs. "Building a WebSocket Chat service for Cloud Run tutorial" https://docs.cloud.google.com/run/docs/tutorials/websockets
+- [22] Microsoft Azure Learn. "Overview of GraphQL APIs in Azure API Management." https://learn.microsoft.com/en-us/azure/api-management/graphql-apis-overview
+- [23] Google Cloud Docs. "Using GraphQL." https://docs.cloud.google.com/apigee/docs/api-platform/develop/graphql
+- [24] Amazon Web Services Docs. "API Gateway WebSocket APIs." https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-websocket-api.html
+- [25] Microsoft Azure. "Azure Web PubSub." https://azure.microsoft.com/en-us/products/web-pubsub
+- [26] Google Cloud Docs. "Using WebSockets." https://docs.cloud.google.com/run/docs/triggering/websockets
+- [27] Amazon Web Services. "Building serverless multi-Region WebSocket APIs." https://aws.amazon.com/blogs/compute/building-serverless-multi-region-websocket-apis/
+- [28] Google Cloud Docs. "Building a WebSocket Chat service for Cloud Run tutorial." https://docs.cloud.google.com/run/docs/tutorials/websockets
+- [29] Amazon Web Services Docs. "What is Amazon Kinesis Data Streams?" https://docs.aws.amazon.com/streams/latest/dev/introduction.html
+- [30] Microsoft Azure Learn. "Welcome to Azure Stream Analytics." https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction
+- [31] Google Cloud. "Real-time data intelligence." https://cloud.google.com/products/dataflow
+- [32] Microsoft Azure. "Event Hubs." https://azure.microsoft.com/en-us/products/event-hubs
+- [33] Google Cloud. "Pub/Sub." https://cloud.google.com/pubsub
